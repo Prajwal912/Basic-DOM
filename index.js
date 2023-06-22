@@ -54,14 +54,23 @@ let check = document.querySelector("input").click()
 
 
 //innerHTML and textContent difference
-//innerhtml can be used with the tags also
-let inner = document.querySelector("#head").innerHTML = "<em>innerhtml</em>"
-console.log(inner)
+// //innerhtml can be used with the tags also
+// let inner = document.querySelector("#head").innerHTML = "<em>innerhtml</em>"
+// console.log(inner)
 
-//textcontent can only be used to extract the content only
-let content = document.querySelector("#head2").textContent = "<em>textconetent</em>"
-console.log(content)
+// //textcontent can only be used to extract the content only
+// let content = document.querySelector("#head2").textContent = "<em>textconetent</em>"
+// console.log(content)
 
+
+//setAttribute and getAttribute
+
+//to know which attributes are present on the element
+const attr = document.querySelector(".list a").attributes
+const attr1 = document.querySelector(".list a").getAttribute("style")
+const attr2 = document.querySelector(".list a").setAttribute("href", "https://www.bing.com")
+console.log(attr)
+console.log(attr1)
 
 
 
