@@ -35,10 +35,10 @@ let check = document.querySelector("input").click()
 // document.querySelector(".btn").style.backgroundColor = 'black';
 
 
-// //it only selects the firstb elem
+// //it only selects the first elem
 // document.querySelector("#ul li").style.backgroundColor = 'blue'
 
-// //to select all use the querySelectorAll
+// //to select the particular ele use the querySelectorAll
 // document.querySelectorAll("#ul .list")[1].style.fontSize = '40px'
 
 
