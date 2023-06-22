@@ -45,12 +45,22 @@ let check = document.querySelector("input").click()
 
 //classList add, remove and toggle
 
-document.querySelector(".btn").classList.add("invisible")
-document.querySelector(".btn").classList.remove("invisible")
-document.querySelector(".btn").classList.toggle("invisible")
-document.querySelector(".btn").classList.toggle("invisible")
+// document.querySelector(".btn").classList.add("invisible")
+// document.querySelector(".btn").classList.remove("invisible")
+// document.querySelector(".btn").classList.toggle("invisible")
+// document.querySelector(".btn").classList.toggle("invisible")
 
-document.querySelector("#head").classList.add("huge")
+// document.querySelector("#head").classList.add("huge")
+
+
+//innerHTML and textContent difference
+//innerhtml can be used with the tags also
+let inner = document.querySelector("#head").innerHTML = "<em>innerhtml</em>"
+console.log(inner)
+
+//textcontent can only be used to extract the content only
+let content = document.querySelector("#head2").textContent = "<em>textconetent</em>"
+console.log(content)
 
 
 
