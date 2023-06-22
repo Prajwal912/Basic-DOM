@@ -31,8 +31,8 @@ className2.style.padding = "10px";
 
 let byID = document.getElementById("ul").style.display = "inline-block"
 
-document.querySelector("li a").style.color = 'red'
-document.querySelector(".btn").innerHTML = 'innerHTML';
+document.querySelector("li a").style.color = 'white'
+document.querySelector(".btn").style.backgroundColor = 'black';
 
 
 //it only selects the firstb elem
