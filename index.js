@@ -12,34 +12,45 @@ let check = document.querySelector("input").click()
 // document.firstElementChild.lastElementChild.firstElementChild;  --  goes inside html and find the last ele that is <body /> goes inside and select the h1
 
 
-let ul = document.querySelector("ul").lastElementChild;
-ul.innerHTML = "prajwal"; 
-//  --  select the ul last li and change the text to prajwal
+// let ul = document.querySelector("ul").lastElementChild;
+// ul.innerHTML = "prajwal"; 
+// //  --  select the ul last li and change the text to prajwal
 
-//it only works with the index ele
-let li = document.getElementsByTagName("li")[2].style.backgroundColor = "yellow"
-let li2 = document.getElementsByTagName("li").length
-console.log(li); //returns array of ele
-console.log(li2); 
-
-
-//it only works with the index ele
-let className = document.getElementsByClassName("btn")[0];
-className.style.padding = "10px";
-let className2 = document.getElementsByClassName("btn")[1];
-className2.style.padding = "10px";
-
-let byID = document.getElementById("ul").style.display = "inline-block"
-
-document.querySelector("li a").style.color = 'white'
-document.querySelector(".btn").style.backgroundColor = 'black';
+// //it only works with the index ele
+// let li = document.getElementsByTagName("li")[2].style.backgroundColor = "yellow"
+// let li2 = document.getElementsByTagName("li").length
+// console.log(li); //returns array of ele
+// console.log(li2); 
 
 
-//it only selects the firstb elem
-document.querySelector("#ul li").style.backgroundColor = 'blue'
+// //it only works with the index ele
+// let className = document.getElementsByClassName("btn")[0];
+// className.style.padding = "10px";
+// let className2 = document.getElementsByClassName("btn")[1];
+// className2.style.padding = "10px";
 
-//to select all use the querySelectorAll
-document.querySelectorAll("#ul .list")[1].style.fontSize = '40px'
+// let byID = document.getElementById("ul").style.display = "inline-block"
+
+// document.querySelector("li a").style.color = 'white'
+// document.querySelector(".btn").style.backgroundColor = 'black';
+
+
+// //it only selects the firstb elem
+// document.querySelector("#ul li").style.backgroundColor = 'blue'
+
+// //to select all use the querySelectorAll
+// document.querySelectorAll("#ul .list")[1].style.fontSize = '40px'
+
+
+
+//classList add, remove and toggle
+
+document.querySelector(".btn").classList.add("invisible")
+document.querySelector(".btn").classList.remove("invisible")
+document.querySelector(".btn").classList.toggle("invisible")
+document.querySelector(".btn").classList.toggle("invisible")
+
+document.querySelector("#head").classList.add("huge")
 
 
 
